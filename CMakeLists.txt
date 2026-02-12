@@ -15,7 +15,7 @@ add_executable(untitled_dawn main.cpp)
 add_library(dawn STATIC IMPORTED)
 
 set_target_properties(dawn PROPERTIES
-        IMPORTED_LOCATION ${DAWN_ROOT}/libwebgpu_dawn.a
+        IMPORTED_LOCATION ${DAWN_ROOT}/lib/libwebgpu_dawn.a
         INTERFACE_INCLUDE_DIRECTORIES ${DAWN_ROOT}/include
 )
 
